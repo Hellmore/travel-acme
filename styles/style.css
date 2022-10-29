@@ -1,0 +1,148 @@
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Mulish', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    top: 54px;
+    bottom: 104px;
+}
+
+.header__content {
+    width: 1120px;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header__images {
+    position: relative;
+}
+
+.header__images-logo-verde {
+    position: relative;
+    top: 10px;
+}
+
+.header__images-logo-laranja {
+    position: absolute;
+    z-index: 1;
+    left: 10.25px;
+    top: 20.25px;
+}
+
+.header__navegation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header__nav-home {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 19px;
+    color: #202336;
+    text-decoration: none;
+}
+
+.header__nav-item {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 19px;
+    color: #B8BECD;
+    text-decoration: none;
+    margin-left: 34px;
+}
+
+.header__buttons {
+    display: flex;
+}
+
+.header__buttons-login {
+    width: 132px;
+    font-size: 15px;
+    line-height: 60px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding-left: 46px;
+    padding-right: 46px;
+    color: #FB8F1D;
+    text-decoration: none; 
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    margin-left: 34px;
+}
+
+.header__buttons-register {
+    width: 132px;
+    font-size: 15px;
+    line-height: 60px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #FB8F1D;
+    text-decoration: none; 
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    margin-left: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
