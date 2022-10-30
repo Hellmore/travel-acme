@@ -286,6 +286,32 @@ main {
     transform: rotate(20deg);
 }
 
+.testimonials__element1 {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 3097px;
+    left: -112px;
+}
+
+.testimonials__element2 {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: 3404px;
+    left: 731px;
+    transform: rotate(8deg);
+}
+
+.testimonials__element3 {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 2912px;
+    left: 1110px;
+    transform: rotate(8deg);
+}
+
 /* Info */
 
 .info {
@@ -305,7 +331,7 @@ main {
 }
 
 .info__content {
-    width: 40%;
+    width: 39%;
 }
 
 .info__title {
@@ -479,6 +505,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 267px;
 }
 
 .testimonial__content {
@@ -541,6 +568,80 @@ main {
     border-radius: 8px;
 }
 
+/* STORIES */
+
+.stories__intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.stories__title {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 50px;
+    color: #000000;
+}
+
+.stories__view-all{
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 60px;
+    color: #FB8F1D;
+    text-decoration: none;
+}
+
+.stories__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.stories__card {
+    position: relative;
+    width: calc(25% - 20px);
+}
+
+.stories__img {
+    border-radius: 8px;
+    width: 99%;
+}
+
+.stories__id {
+    background-color: #FFFFFF;
+    padding-top: 13px;
+    padding-right: 42px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 224px;
+    width: 100%;
+}
+
+.stories__id-title {
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 25px;
+    color: #042521;
+    margin-bottom: 15px;
+}
+
+.stories__id-text {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    color: #80918E;
+    margin-bottom: 15px;
+}
+
+.stories__link {
+
+}
 
 
 
