@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    
     <header>
         <div class="header__content">
 
@@ -38,12 +39,58 @@
         </div>
     </header>
 
-    <section class="hero">
-        <div class="hero__content">
-            <h1 class="hero__title">Explore and Travel</h1>
-            <h2 class="hero__subtitle">Holliday finder</h2>
+    <main>
+
+        <section class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">Explore and Travel</h1>
+                <h2 class="hero__subtitle">Holliday finder</h2>
+                <p class="hero__detail"></p>
+
+                <form class="hero__form">
+                        <select class="hero__form-item">
+                            <option  selected disabled>Location</option>
+                            <option value="brazil">Brazil</option>
+                            <option value="portugal">Portugal</option>
+                        </select>
+
+                        <select class="hero__form-item">
+                            <option  selected disabled>Activity</option>
+                            <option value="surfing">Surfing</option>
+                            <option value="cooking">Cooking</option>
+                        </select>
+
+                        <select class="hero__form-item">
+                            <option selected disabled>Grade</option>
+                            <option value="1-3 stars">1-3 stars</option>
+                            <option value="4-5 stars">4-5 stars</option>
+                        </select>
+
+                        <select class="hero__form-item">
+                            <option  selected disabled>Date</option>
+                            <option value="1 week">1 week</option>
+                            <option value="2 weeks">2 weeks</option>
+                        </select>
+                </form>
+
+                <a  href="#" class="hero__button">Explore</a>
+            </div>
+
+            <div class="hero__img-container">
+                <img src="./images/hero-img.png">
+            </div>
+        </section>
+
+        <div class="hero__elements">
+            <img src="./images/cruz-amarela-img.png" class="hero__element1">
+            <img src="./images/circulo-verde-img.png" class="hero__element2">
+            <img src="./images/circulo-verde-img.png" class="hero__element3">
+            <img src="./images/cruz-amarela-img.png" class="hero__element4">
         </div>
-    </section>
+
+    </main>
+
+    
 
 </body>
 </html>
